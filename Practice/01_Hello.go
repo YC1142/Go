@@ -8,5 +8,5 @@ func main() {
 	fmt.Println(number)
 	const constant_value = 129
 	print(constant_value)
-	
+
 }
