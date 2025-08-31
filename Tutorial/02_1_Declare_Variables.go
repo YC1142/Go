@@ -10,6 +10,7 @@ var f = 3
 
 // g := 4
 func main() {
+	println("Variablendeklaration mit Anfangswert")
 	var student1 string = "John"
 	var student2 = "Jane"
 	x := 2
@@ -17,7 +18,7 @@ func main() {
 	fmt.Println(student2)
 	fmt.Println(x)
 	// Note: The variable types of student2 and x is inferred (abgeleitet) from their values
-	fmt.Println("")
+	fmt.Println("-----")
 	fmt.Println("Variablendeklaration ohne Anfangswert")
 	var a string
 	var b int
@@ -27,13 +28,13 @@ func main() {
 	fmt.Println(b) // b is 0
 	fmt.Println(c) // c is false
 
-	fmt.Println("")
+	fmt.Println("-----")
 	fmt.Println("Wertzuweisung nach Deklaration")
 	var student3 string
 	student3 = "John"
 	fmt.Println(student3)
 
-	fmt.Println("")
+	fmt.Println("-----")
 	fmt.Println("Unterschied zwischen keyword var und :=")
 	d = 1
 	println(d)
